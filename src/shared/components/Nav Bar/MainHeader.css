@@ -1,0 +1,19 @@
+.main-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 96px;
+  padding: 12px 4px 4px 16px;
+  background-color: black;
+  color: white;
+}
+
+main {
+   margin-top: 5rem;
+}
+
+@media (min-width: 768px) {
+  .main-header {
+    justify-content: space-between;
+  }
+}

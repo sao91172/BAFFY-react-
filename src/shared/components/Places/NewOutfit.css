@@ -1,0 +1,60 @@
+.label {
+    color:white;
+}
+.container {
+    color:white;
+}
+.input {
+    display: inline-block;
+    position:absolute;
+}
+.button {
+    display: inline-block;
+}
+
+.form-control {
+    margin: 1rem 0 ;
+  }
+  
+  .form-control label,
+  .form-control input,
+  .form-control textarea {
+    display: block;
+    
+
+  }
+  
+  .form-control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    width: 100%;
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: rgb(55, 55, 55);
+    padding: 0.15rem 0.25rem;
+    color: white;
+  }
+  
+  .form-control input:focus,
+  .form-control textarea:focus {
+    outline: none;
+    background: #605d5d;
+    border-color: #222122;
+    color: white;
+  }
+  .place-form {
+    list-style: none;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    background: rgb(28, 28, 28);
+    color: white;
+  }

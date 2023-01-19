@@ -1,0 +1,22 @@
+
+  * {
+    margin: 0;
+    list-style: none;
+  
+  }
+  .baf{
+    color: white;
+    font-family: Playfair Display SC,sans-serif;
+    display: block;
+    align-self: center;
+    text-align: center;
+    padding-bottom: -100px;
+  }
+  .baf2 {
+    color: white;
+    font-family: Playfair Display SC,sans-serif;
+    position: relative;
+    align-self: center;
+    padding-top: -100px;
+    text-align: center;
+  }
